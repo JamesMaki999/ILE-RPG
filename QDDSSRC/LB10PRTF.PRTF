@@ -1,0 +1,35 @@
+000001220202     A          R HEADER
+000002220202     A                                     3DATE
+000003220202     A                                      EDTWRD('  /  /  ')
+000004220202     A                                    45'GTC Customer Payment Report'
+000005220202     A                                   118'Page: 0001'
+000006220202     A                                    45'By Last Name By First Name'
+000007220202     A                                      SPACEB(1)
+000008220202     A                                     5'Customer'
+000009220202     A                                      SPACEB(2)
+000010220204     A                                    19'Customer'
+000011220204     A                                    96'Customer'
+000012220204     A                                   110'Customer'
+000013220204     A                                   121'Processing'
+000014220202     A                                     5'Phone Number'
+000015220202     A                                      SPACEB(1)
+000016220204     A                                    19'Name'
+000017220204     A                                    47'City, State, & Zip'
+000018220204     A                                    96'Pay Date'
+000019220204     A                                   110'Rev. Date'
+000020220204     A                                   121'Days'
+000048220205     A          R DETAILS                   SPACEB(5)
+000051220204     A            CUSTPHO       10  0      4EDTWRD('   -   -    ')
+000052220204     A            CUSTNAME      27        18
+000053220204     A            CUSTLOCAT     48        47
+000054220204     A            CUSTPAY        8  0     97EDTWRD('  /  /    ')
+000055220204     A            CUSTRCV        8  0    109EDTWRD('  /  /    ')
+000056220204     A            PRODAY         4  0    121EDTWRD(' ,   ')
+000057220205     A          R TOTAL                     SPACEB(1)
+000058220205     A                                     3'Average Number Of Days:'
+000059220205     A                                      SPACEB(8)
+000060220205     A            AVGDAYSNUM     4  0     28EDTWRD('    ')
+000061220205     A                                     3'Total Customers:'
+000062220205     A                                      SPACEB(1)
+000063220205     A            CUSTTOT        4  0     23EDTWRD(' ,   ')
+000100
