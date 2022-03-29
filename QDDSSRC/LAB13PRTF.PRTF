@@ -1,0 +1,46 @@
+000001220310     A          R HEADER
+000002220310     A                                     2DATE(*YY)
+000003220310     A                                      EDTWRD('  /  /    ')
+000004220310     A                                    50'GTC Telephone'
+000005220310     A                                   120'Page'
+000006220310     A                                   125PAGNBR
+000007220310     A                                    33'Customer Call Report & The Convers-
+000008220310     A                                      ion Report'
+000009220310     A                                      SPACEB(1)
+000011220310     A                                     2'Phone'
+000012220325     A                                      SPACEB(1)
+000013220323     A                                    14'First'
+000014220310     A                                    30'Last'
+000015220325     A                                    50'Call'
+000016220325     A                                    65'Day of'
+000017220310     A                                    85'Military'
+000018220310     A                                   100'Converted'
+000019220310     A                                     2'Number'
+000020220310     A                                      SPACEB(1)
+000021220323     A                                    14'Name'
+000022220310     A                                    30'Name'
+000023220325     A                                    50'Date'
+000024220325     A                                    65'The Week'
+000025220310     A                                    85'Time'
+000026220310     A                                   100'Time'
+000027220310     A          R DETAILS                   SPACEB(1)
+000029220310     A            PNUM          10  0      2
+000030220323     A            FNAME         15        14
+000031220310     A            LNAME         15        30
+000032220325     A            CALLDATE        L       50DATFMT(*USA)
+000033220325     A            DOWEEK         9        65
+000034220325     A            MILTIM         6  0     85EDTWRD('  :  :  ')
+000035220326     A            CVTTIM        13       100
+000036220310     A          R TOTAL                     SPACEB(1)
+000037220310     A                                     2'Total Calls Processed'
+000038220310     A                                      SPACEB(1)
+000039220310     A            TTLCALL        5  0     25
+000100      
+000101220325     A*%%RS+<record-sequences>
+000102220325     A*%%RS+ <sequence name="Untitled">
+000103220325     A*%%RS+  <device type="printer" width="132" height="66" />
+000104220325     A*%%RS+  <record-write record-format="HEADER" />
+000105220325     A*%%RS+  <record-write record-format="DETAILS" />
+000106220325     A*%%RS+  <record-write record-format="TOTAL" />
+000107220325     A*%%RS+ </sequence>
+000108220325     A*%%RS </record-sequences>
