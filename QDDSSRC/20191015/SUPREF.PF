@@ -1,0 +1,5 @@
+000100191013                R RECSUPREF
+000200191013                  SUPNAME       20A         TEXT('SUPPLIER NAME')
+000300191013                  SUPCTY        15A         TEXT('SUPPLIER CITY')
+000400191013                  SUPST          2A         TEXT('SUPPLIER STATE')
+000500191015     A            SUPZP          5A         TEXT('SUPPLIER ZIPCODE')
