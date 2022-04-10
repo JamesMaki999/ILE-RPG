@@ -1,0 +1,95 @@
+000001220403     A          R HEADER
+000002220403     A                                     2DATE
+000003220403     A                                      EDTWRD('  /  /  ')
+000004220404     A                                    48'CloudServices24x7, Inc.'
+000005220403     A                                   121'Page:'
+000006220403     A                                   127PAGNBR
+000007220404     A                                    32'Inventory Valuation Report in Mult-
+000008220404     A                                      iple Currencies'
+000009220403     A                                      SPACEB(1)
+000011220405     A                                    51'------ Current Cost ------'
+000012220404     A                                      SPACEB(2)
+000013220405     A                                    78'------ Average Cost ------'
+000014220405     A                                   105'------ Selling Price ------'
+000021220404     A                                     2'Product'
+000022220404     A                                      SPACEB(1)
+000023220404     A                                    10'Product'
+000024220405     A                                    44'On Hand'
+000025220405     A                                    52'US'
+000026220405     A                                    61'CAD'
+000027220405     A                                    79'US'
+000028220405     A                                    88'CAD'
+000029220405     A                                   106'US'
+000030220405     A                                   115'CAD'
+000031220404     A                                     2'Number:'
+000032220404     A                                      SPACEB(1)
+000033220404     A                                    10'Description:'
+000034220405     A                                    44'Qty:'
+000035220405     A                                    52'Dollars:'
+000036220405     A                                    61'Dollars:'
+000037220405     A                                    70'Euro:'
+000038220405     A                                    79'Dollars:'
+000039220405     A                                    88'Dollars:'
+000040220405     A                                    97'Euro:'
+000041220405     A                                   106'Dollars:'
+000042220405     A                                   115'Dollars:'
+000043220405     A                                   124'Euro:'
+000044220404     A          R DETAILS
+000046220405     A            L14_PRONUM     6  0      2SPACEB(1)
+000047220405     A            L14_DESC      30        10
+000048220405     A            L14_QTY        4  0     44EDTCDE(3)
+000049220405     A            L14_USD        7  2     52EDTCDE(3)
+000050220405     A            L14_CAD        7  2     61EDTCDE(3)
+000051220405     A            L14_EURO       7  2     70EDTCDE(3)
+000052220405     A            L14_USDA       7  2     79EDTCDE(3)
+000053220405     A            L14_CADA       7  2     88EDTCDE(3)
+000054220405     A            L14_EURA       7  2     97EDTCDE(3)
+000055220405     A            L14_USDS       7  2    106EDTCDE(3)
+000056220405     A            L14_CADS       7  2    115EDTCDE(3)
+000057220405     A            L14_EURS       7  2    124EDTCDE(3)
+000059220404     A          R HEADSUM                   SPACEB(2)
+000062220404     A                                     2DATE
+000063220404     A                                      EDTWRD('  /  /  ')
+000064220404     A                                    48'CloudServices24x7, Inc.'
+000071220404     A                                   121'Page:'
+000073220404     A                                   127PAGNBR
+000074220404     A                                    32'Inventory Valuation Report in Mult-
+000075220404     A                                      iple Currencies'
+000076220404     A                                      SPACEB(1)
+000077220404     A                                    53'Summary Page'
+000078220404     A                                      SPACEB(1)
+000080220404     A          R TTLSUM                    SPACEB(1)
+000081220404     A                                     2'Report'
+000083220404     A                                     2'Totals'
+000084220404     A                                      SPACEB(1)
+000085220404     A                                    21'---Current Cost'
+000086220404     A                                    39'---Average Cost'
+000087220404     A                                    57'--Selling Price'
+000088220404     A                                     2'US Dollars:'
+000089220404     A                                      SPACEB(1)
+000090220404     A            TTLUSCST      11  2     21EDTCDE(1 $)
+000091220404     A            TTLUSAVG      11  2     39EDTCDE(1 $)
+000092220404     A            TTLUSPRC      11  2     57EDTCDE(1 $)
+000093220404     A                                     2'Canadian Dollars:'
+000094220404     A                                      SPACEB(1)
+000095220404     A            TTLCDCST      11  2     21EDTCDE(1 $)
+000096220404     A            TTLCDAVG      11  2     39EDTCDE(1 $)
+000097220404     A            TTLCDPRC      11  2     57EDTCDE(1 $)
+000098220404     A                                     2'Euro:'
+000099220404     A                                      SPACEB(1)
+000100220404     A            TTLEUCST      11  2     21EDTCDE(1 $)
+000101220404     A            TTLEUAVG      11  2     39EDTCDE(1 $)
+000102220404     A            TTLEUPRC      11  2     57EDTCDE(1 $)
+000103220404     A                                     2'Total Parts Processed:'
+000104220404     A                                      SPACEB(2)
+000105220404     A            TTLPRTS        6  0     26EDTWRD('   ,   ')
+000106      
+000107220405     A*%%RS+<record-sequences>
+000108220405     A*%%RS+ <sequence name="Untitled">
+000109220405     A*%%RS+  <device type="printer" width="132" height="66" />
+000110220405     A*%%RS+  <record-write record-format="HEADER" />
+000111220405     A*%%RS+  <record-write record-format="DETAILS" />
+000112220405     A*%%RS+  <record-write record-format="HEADSUM" />
+000113220405     A*%%RS+  <record-write record-format="TTLSUM" />
+000114220405     A*%%RS+ </sequence>
+000115220405     A*%%RS </record-sequences>
