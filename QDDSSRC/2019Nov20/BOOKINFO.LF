@@ -1,8 +1,0 @@
-000100191120     A                                      JDFTVAL
-000102191120     A          R RECBOOKINF                JFILE(BOOKS PUBLISHER)
-000103191120     A          J                           JOIN(1 2)
-000104191120     A                                      JFLD(PUBID PUBID)
-000106191120     A            TITLE
-000107191120     A            PUBID                     JREF(1)
-000108191120     A            AUTHOR
-000109191120     A            PUBNAME
