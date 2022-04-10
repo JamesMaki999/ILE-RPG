@@ -1,0 +1,10 @@
+000100191211     A
+000101191211     A          R RECINFOSTR                JFILE(SCOREINFO STOREEMPS)
+000102191211     A          J                           JOIN(1 2)
+000103191211     A                                      JFLD(STORE_ID STORE_ID)
+000104191211     A            EMP_ID
+000105191211     A            FIRSTNAME
+000106191211     A            LASTNAME
+000107191211     A            STORE_ID                  JREF(1)
+000108191211     A            CITY
+000109191211     A            MGR_NAME

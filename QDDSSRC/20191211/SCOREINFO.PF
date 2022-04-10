@@ -1,0 +1,5 @@
+000100191211     A          R RECSTRINFO
+000101191211     A            STORE_ID       4S
+000102191211     A            CITY          20A
+000103191211     A            STATE          2A
+000104191211     A            MGR_NAME      30A

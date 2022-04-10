@@ -1,0 +1,6 @@
+000100191211     A                                      REF(SCOREINFO)
+000101191211     A          R RECSTREMPS
+000102191211     A            EMP_ID         4S
+000103191211     A            FIRSTNAME     14A
+000104191211     A            LASTNAME      14A
+000105191211     A            STORE_ID  R
