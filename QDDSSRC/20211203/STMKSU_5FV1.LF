@@ -1,0 +1,10 @@
+000100211204     A                                      JDFTVAL
+000101211204     A          R RECSTM                    JFILE(MRKSFIN17 SBJSFIN17 STUDFIN17)
+000102211204     A          J                           JOIN(1 2)
+000103211204     A                                      JFLD(SUBJECTID SUBJECTID)
+000104211204     A          J                           JOIN(1 3)
+000105211204     A                                      JFLD(STUDENTID STUDENTID)
+000106211204     A            LASTNAME
+000107211204     A            TITLE
+000108211204     A            MARKDATE
+000109211204     A            MARK

@@ -1,0 +1,9 @@
+000100211202     A          R RECJOIN                   JFILE(STOREINFO2 STOREEMPS2)
+000101211202     A          J                           JOIN(1 2)
+000102211202     A                                      JFLD(STORE_ID STORE_ID)
+000103211202     A            EMP_ID
+000104211202     A            FIRSTNAME
+000105211202     A            LASTNAME
+000106211202     A            STORE_ID                  JREF(1)
+000107211202     A            CITY
+000108211202     A            MGR_NAME

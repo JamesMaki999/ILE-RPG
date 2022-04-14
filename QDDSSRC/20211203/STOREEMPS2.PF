@@ -1,0 +1,7 @@
+000100211202     A                                      UNIQUE
+000101211202     A          R RECSTREMPS
+000102211202     A            EMP_ID         4A
+000103211202     A            FIRSTNAME     14A
+000104211202     A            LASTNAME      14A
+000105211202     A            STORE_ID       4A
+000106211202     A          K EMP_ID

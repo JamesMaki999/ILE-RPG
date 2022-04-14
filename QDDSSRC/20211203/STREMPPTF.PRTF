@@ -1,0 +1,25 @@
+000001211202     A          R RECORD1
+000002211202     A                                    37'Store Information'
+000003211202     A                                     3'Employee ID'
+000004211202     A                                      SPACEB(1)
+000005211202     A                                    16'First Name'
+000006211202     A                                    32'Last Name'
+000007211202     A                                    48'Store ID'
+000008211202     A                                    58'City'
+000009211202     A                                    80'Manager Name'
+000011211202     A          R RECORD2                   SPACEB(1)
+000012211202     A            EMP_ID         4         3
+000015211202     A                                      SPACEB(1)
+000017211202     A            FIRSTNAME     14        16
+000019211202     A            LASTNAME      14        32
+000021211202     A            STORE_ID       4        48
+000023211202     A            CITY          20        58
+000025211202     A            MGR_NAME      30        80
+000100      
+000101211202     A*%%RS+<record-sequences>
+000102211202     A*%%RS+ <sequence name="STRDSP">
+000103211202     A*%%RS+  <device type="printer" width="132" height="66" />
+000104211202     A*%%RS+  <record-write record-format="RECORD1" />
+000105211202     A*%%RS+  <record-write record-format="RECORD2" />
+000106211202     A*%%RS+ </sequence>
+000107211202     A*%%RS </record-sequences>

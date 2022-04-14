@@ -1,0 +1,7 @@
+000100211202     A                                      UNIQUE
+000101211202     A          R RECSTRINFO
+000102211202     A            STORE_ID       4A
+000103211202     A            CITY          20A
+000104211202     A            STATE          2A
+000105211202     A            MGR_NAME      30A
+000106211202     A          K STORE_ID
