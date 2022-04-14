@@ -1,0 +1,16 @@
+000001211203     A          R RECORD1
+000002211203     A                                     6'Marks Table'
+000004211203     A                                     2'Student ID'
+000005211203     A                                      SPACEB(1)
+000006211203     A                                    15'Marks'
+000007211203     A          R RECORD2                   SPACEB(1)
+000008211203     A            FLDID          3  0      2SPACEB(1)
+000009211203     A            FLDMRKS        3  0     15
+000100      
+000101211203     A*%%RS+<record-sequences>
+000102211203     A*%%RS+ <sequence name="RECORDS">
+000103211203     A*%%RS+  <device type="printer" width="132" height="66" />
+000104211203     A*%%RS+  <record-write record-format="RECORD1" />
+000105211203     A*%%RS+  <record-write record-format="RECORD2" />
+000106211203     A*%%RS+ </sequence>
+000107211203     A*%%RS </record-sequences>
