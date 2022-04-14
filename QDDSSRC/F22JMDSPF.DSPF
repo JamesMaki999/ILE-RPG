@@ -1,0 +1,42 @@
+000001220330     A                                      INDARA
+000002220330     A          R CST_SELECT                CA03(03 'Exit')
+000003220330     A                                      CA12(12 'Cancel')
+000004220330     A                                  1 20'Final Exam Team Project Customers'
+000005220330     A                                  2 25'Select Page - James Maki'
+000006220413     A                                  5 21'Enter Customer SSN'
+000007220413     A            CUSTNO    R        B  5 42REFFLD(CSTREC/CUSTNO FLIGHT2021/CUS-
+000008220330     A                                      TOMER)
+000009220413     A                                 12 11'F3 = Exit | F12 = Cancel | Enter a-
+000010220413     A                                       Value and Hit Enter'
+000011220330     A          R CST_DSPLY                 CA03(03 'Exit')
+000012220330     A                                      CA12(12 'Cancel')
+000013220406     A                                  5  2'Customer First Na'
+000014220406     A            CFNAME    R        O  5 20REFFLD(CSTREC/CFNAME FLIGHT2021/CUS-
+000015220330     A                                      TOMER)
+000016220330     A                                  1 21'Final Exam Team Project Customers'
+000017220330     A                                  2 25'Display Page - James Maki'
+000018220406     A            CLNAME    R        O  6 20REFFLD(CSTREC/CLNAME FLIGHT2021/CUS-
+000019220406     A                                      TOMER)
+000020220406     A                                  6  2'Customer Last Nam'
+000022220406     A            CADDR     R        O  7 20REFFLD(CSTREC/CADDR FLIGHT2021/CUST-
+000023220406     A                                      OMER)
+000024220406     A                                  7  2'Customer Address.'
+000025220406     A            CCITY     R        O  8 20REFFLD(CSTREC/CCITY FLIGHT2021/CUST-
+000026220406     A                                      OMER)
+000027220406     A                                  8  2'Customer City . .'
+000028220406     A            CSTATE    R        O  9 20REFFLD(CSTREC/CSTATE FLIGHT2021/CUS-
+000029220406     A                                      TOMER)
+000030220406     A            CZIP      R        O 10 20REFFLD(CSTREC/CZIP FLIGHT2021/CUSTO-
+000031220406     A                                      MER)
+000032220406     A                                  9  2'Customer State. .'
+000034220406     A                                 10  2'Customer Zip Code'
+000035220406     A            CPHONE    R        O 11 20REFFLD(CSTREC/CPHONE FLIGHT2021/CUS-
+000036220406     A                                      TOMER)
+000037220406     A                                 11  2'Customer Phone #.'
+000038220413     A            CEMAIL    R        O 13 20REFFLD(CSTREC/CEMAIL FLIGHT2021/CUS-
+000039220406     A                                      TOMER)
+000040220406     A                                 13  2'Customer Email. .'
+000041220406     A            CDOB      R        O 12 20REFFLD(CSTREC/CDOB FLIGHT2021/CUSTO-
+000042220406     A                                      MER)
+000044220406     A                                 12  2'Customer DoB. . .'
+000045220413     A                                 15 25'F3 = Exit | F12 = Cancel'

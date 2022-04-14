@@ -1,0 +1,27 @@
+000100220412     A                                      INDARA
+000101220412     A          R JOB_SELECT                CA03(03 'Exit')
+000102220412     A                                      CA12(12 'Cancel')
+000103220412     A                                  1 20'Final Exam Team Project Job Type'
+000104220412     A                                  2 25'Select Page - James Maki'
+000105220412     A                                  5 26'Job Type ID'
+000106220412     A            JTID      R        I  5 38REFFLD(JBTREC/JTID FLIGHT2021/JOBTY-
+000107220412     A                                      PE)
+000108220413     A                                 11 10'F3 = Exit | F12 = Cancel | Enter a-
+000109220413     A                                       Value and Hit Enter'
+000110220412     A          R JOB_DSPLY                 CA03(03 'Exit')
+000111220412     A                                      CA12(12 'Cancel')
+000112220412     A                                  5 15'Job Type Code. . . . .'
+000113220412     A                                  1 21'Final Exam Team Project Job Type'
+000114220412     A                                  2 25'Display Page - James Maki'
+000117220412     A                                  6 15'Job Type Short Name. .'
+000120220412     A                                  7 15'Job Type Name. . . . .'
+000123220412     A                                  8 15'Job Type Description .'
+000139220412     A            JTCD      R        O  5 38REFFLD(JBTREC/JTCD FLIGHT2021/JOBTY-
+000140220412     A                                      PE)
+000141220412     A            JTTINYNM  R        O  6 38REFFLD(JBTREC/JTTINYNM FLIGHT2021/J-
+000142220412     A                                      OBTYPE)
+000143220412     A            JTNM      R        O  7 38REFFLD(JBTREC/JTNM FLIGHT2021/JOBTY-
+000144220412     A                                      PE)
+000145220412     A            JTDESC    R        O  8 38REFFLD(JBTREC/JTDESC FLIGHT2021/JOB-
+000146220412     A                                      TYPE)
+000147220413     A                                 12 25'F3 = Exit | F12 = Cancel'
