@@ -1,0 +1,41 @@
+000001220406     A          R HEADER
+000002220406     A                                     2DATE(*YY)
+000003220406     A                                      EDTWRD('  /  /    ')
+000004220406     A                                   120'Page:'
+000005220406     A                                   126PAGNBR
+000012220406     A                                    48'Final Exam Team Project Customers'
+000013220406     A                                      SPACEB(1)
+000015220406     A                                    59'James Maki'
+000016220406     A                                      SPACEB(1)
+000017220406     A                                     2'Customer'
+000018220406     A                                      SPACEB(2)
+000019220406     A                                    12'Customer'
+000020220406     A                                    28'Customer'
+000021220406     A                                    49'Customer'
+000022220406     A                                    80'Customer'
+000023220406     A                                   111'Customer'
+000024220406     A                                   120'Customer'
+000025220406     A                                     2'SSN'
+000026220406     A                                      SPACEB(1)
+000027220406     A                                    12'First Name'
+000028220406     A                                    28'Last Name'
+000029220406     A                                    49'Address'
+000030220406     A                                    80'City'
+000031220406     A                                   111'State'
+000032220406     A                                   120'ZipCode'
+000034220406     A          R DETAILS                   SPACEB(1)
+000036220406     A            F22_SSN        9  0      2
+000037220406     A            F22_CFNAME    15        12
+000038220406     A            F22_CLNAME    20        28
+000039220406     A            F22_ADD       30        49
+000040220406     A            F22_CITY      30        80
+000041220406     A            F22_STATE      2       111
+000042220406     A            F22_ZIP        9  0    120
+000100
+000101220406     A*%%RS+<record-sequences>
+000102220406     A*%%RS+ <sequence name="Untitled">
+000103220406     A*%%RS+  <device type="printer" width="132" height="66" />
+000104220406     A*%%RS+  <record-write record-format="HEADER" />
+000105220406     A*%%RS+  <record-write record-format="DETAILS" />
+000106220406     A*%%RS+ </sequence>
+000107220406     A*%%RS </record-sequences>

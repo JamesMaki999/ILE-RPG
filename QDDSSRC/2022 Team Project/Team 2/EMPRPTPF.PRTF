@@ -1,0 +1,26 @@
+000001220406     A          R HEADER
+000002220406     A                                  1 49'Employee Report'
+000003220406     A                                  2 50'Final Project'
+000008220406     A                                  4 18'Employee'
+000009220406     A                                  5 18'Name'
+000010220406     A                                  4  7'Employee'
+000011220406     A                                  5  8'Number'
+000013220406     A                                  5 56'City, State & Zip'
+000014220406     A                                  4 98'Phone'
+000015220406     A                                  5 98'Number'
+000017220406     A          R DETAIL                    SPACEB(1)
+000018220406     A            EMPNO     R              8REFFLD(EMPREC/EMPNO FLIGHT2021/EMPL-
+000019220406     A                                      OYEE)
+000020220406     A            EMPNM         37        18
+000021220406     A            CSZ           39        56
+000022220406     A            EPHONE    R             98
+000023220406     A                                      REFFLD(EMPREC/EPHONE FLIGHT2021/EMP-
+000024220406     A                                      LOYEE)
+000100
+000101220406     A*%%RS+<record-sequences>
+000102220406     A*%%RS+ <sequence name="Untitled">
+000103220406     A*%%RS+  <device type="printer" width="132" height="66" />
+000104220406     A*%%RS+  <record-write record-format="HEADER" />
+000105220406     A*%%RS+  <record-write record-format="DETAIL" />
+000106220406     A*%%RS+ </sequence>
+000107220406     A*%%RS </record-sequences>

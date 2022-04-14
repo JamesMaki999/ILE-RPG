@@ -1,0 +1,38 @@
+000001220408     A                                      INDARA
+000002220408     A          R EMPNOINP
+000003220408     A                                      CA03(03 'F3=Exit')
+000004220408     A
+000005220408     A                                      CA12(12 'F12=Exit')
+000006220408     A                                  1 35'Employee Screen'
+000007220408     A                                  2 36'Final Project'
+000008220408     A                                  4 21'Enter your employee number.'
+000009220408     A                                  6 16'Employee Number - '
+000010220408     A            EMPNO     R        B  6 37REFFLD(EMPREC/EMPNO FLIGHT2021/EMPL-
+000011220408     A                                      OYEE)
+000012220408     A                                  9 19' Press Enter for information'
+000013220408     A  30                             13 21'INVALID NUMBER!  PLEASE TRY AGAIN-
+000014220408     A                                      !'
+000015220408     A                                      COLOR(RED)
+000016220408     A                                      DSPATR(RI)
+000017220408     A                                 18  2'F3=Exit  F12=Cancel'
+000018220408     A                                      COLOR(RED)
+000020220408
+000031220408     A          R EMPDSP
+000032220408     A                                      CA03(03)
+000033220408     A                                      CA12(12)
+000034220408     A                                  3 17'Employee Name:'
+000035220408     A                                  5 10'City, State, and Zip:'
+000036220408     A                                  1 30'Employee info'
+000037220408     A                                  7 17'Phone:'
+000038220408     A            EPHONE    R        O  7 24REFFLD(EMPREC/EPHONE FLIGHT2021/EMP-
+000039220408     A                                      LOYEE)
+000040220408     A            EMPNM         37   O  3 32
+000041220408     A            CSZ           37   O  5 32
+000042220408     A                                 20  3'F3=Exit    F12=Cancel'
+000134220408     A*%%RS+<record-sequences>
+000135220408     A*%%RS+ <sequence name="Untitled">
+000136220408     A*%%RS+  <device type="display" width="80" height="24" />
+000137220408     A*%%RS+  <record-write record-format="EMPNOINP" />
+000138220408     A*%%RS+  <record-write record-format="EMPDSP" />
+000139220408     A*%%RS+ </sequence>
+000140220408     A*%%RS </record-sequences>
